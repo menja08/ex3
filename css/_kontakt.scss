@@ -1,0 +1,32 @@
+body{
+  width: 100%;
+  margin: auto;
+
+}
+
+#kontakt {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto;
+}
+#adresser {
+  font-size: 1.3em;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+  input {
+    width: 100%;
+  }
+
+  #besked {
+    height: 50px;
+  }
+
+  button {
+    color: grey;
+  }
+}

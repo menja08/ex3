@@ -1,0 +1,27 @@
+body{
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+  font-size: 1.5em;
+  margin: 2%;
+  margin-top: 5%;
+
+  img {
+    width: 5%;
+    height: 5%;
+  }
+}
+
+// tablet
+
+// desktop
+@media (min-width: 801px) {
+  footer {
+    img {
+      width: 3%;
+      height: 3%;
+    }
+  }
+}

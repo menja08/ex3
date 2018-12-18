@@ -1,0 +1,330 @@
+body {
+  width: 100%;
+  margin: auto; }
+
+header {
+  display: flex;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#logo {
+  width: 50%;
+  height: auto; }
+  #logo img {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: -9%;
+    margin-top: -20%;
+    margin-bottom: -35%;
+    z-index: -1; }
+
+nav {
+  width: 50%; }
+  nav img {
+    width: 30px;
+    height: 30px;
+    float: right; }
+  nav section {
+    margin-top: 2px;
+    padding: 5px; }
+
+@media (min-width: 400px) and (max-width: 800px) {
+  header #logo img {
+    max-width: 100%; } }
+@media (min-width: 801px) {
+  body {
+    width: 100%;
+    margin: auto; }
+
+  header {
+    width: 100%;
+    display: block; }
+    header #logo {
+      width: 100%;
+      height: auto; }
+      header #logo img {
+        position: relative;
+        z-index: -1;
+        max-width: 30%;
+        max-height: 100%;
+        margin-top: -6%;
+        margin-left: -3%;
+        margin-bottom: -11%; }
+    header nav {
+      width: 90%;
+      display: flex;
+      margin: auto; }
+      header nav section {
+        padding-left: 6%; } }
+body {
+  width: 100%;
+  margin: auto; }
+
+hr {
+  width: 100%; }
+
+section {
+  width: 100%; }
+
+#welcome {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+
+#om {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+  #om #video {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%; }
+    #om #video iframe {
+      width: 100%;
+      height: 320px; }
+
+#members {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+  #members #textBox {
+    height: auto;
+    width: 100%;
+    text-align: center; }
+  #members #threeDots {
+    font-size: 0.6em;
+    color: grey;
+    display: flex;
+    text-align: center;
+    width: 50%; }
+    #members #threeDots section {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%; }
+
+#facebook {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+  #facebook p {
+    font-size: 0.6em; }
+  #facebook div {
+    margin: auto; }
+
+/*footer {
+  font-size: 1.5em;
+  background: grey;
+}*/
+@media (min-width: 400px) and (max-width: 800px) {
+  #welcome {
+    font-size: 1.6em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    margin: auto; } }
+@media (min-width: 801px) {
+  #welcome {
+    font-size: 1.6em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+    margin: auto; }
+
+  #text_and_facebook {
+    display: flex;
+    width: 90%;
+    margin: auto; }
+
+  #om #video iframe {
+    width: 100%;
+    height: 400px; } }
+body {
+  width: 100%;
+  margin: auto; }
+
+#social {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+
+#social_text {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column; }
+  #social_text #zero {
+    width: 100%;
+    margin-bottom: 1%; }
+  #social_text #beskrivende_text {
+    width: 100%;
+    margin-top: 1%;
+    margin-right: 2%;
+    padding-top: 2%; }
+  #social_text #one {
+    width: 100%;
+    margin-top: 1%; }
+  #social_text #social_images {
+    height: auto;
+    width: 90%;
+    text-align: center; }
+    #social_text #social_images img {
+      width: 100%; }
+  #social_text #threeDots {
+    font-size: 0.6em;
+    color: grey;
+    display: flex;
+    text-align: center;
+    width: 90%; }
+
+#arrangementer {
+  font-size: 1.5em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+  #arrangementer section {
+    font-size: 2em; }
+
+@media (min-width: 801px) {
+  #social_text {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    font-size: 1.6em;
+    padding: 1%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "zero zero" "text images"; }
+    #social_text #zero {
+      grid-area: zero; }
+    #social_text #beskrivende_text {
+      grid-area: text;
+      width: 100%; }
+    #social_text #one {
+      grid-area: images;
+      width: 100%; } }
+body {
+  width: 100%;
+  margin: auto; }
+
+#kontakt {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto; }
+
+#adresser {
+  font-size: 1.3em; }
+
+form {
+  width: 90%;
+  margin: auto; }
+  form input {
+    width: 100%; }
+  form #besked {
+    height: 50px; }
+  form button {
+    color: grey; }
+
+body {
+  width: 100%;
+  margin: auto; }
+
+section {
+  width: 90%;
+  margin: auto; }
+
+#om {
+  font-size: 1.6em; }
+
+#formaal {
+  font-size: 1.6em; }
+
+#historie {
+  font-size: 1.6em; }
+
+#two_images {
+  border: 2px solid red;
+  display: flex;
+  background: green;
+  flex-direction: column; }
+  #two_images img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid green; }
+
+@media screen and (min-width: 401px) {
+  section {
+    width: 95%;
+    margin: auto; }
+
+  #two_images {
+    display: grid;
+    width: 95%;
+    height: 380px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "image1 image2"; }
+    #two_images #image1 {
+      grid-area: image1;
+      width: 100%; }
+    #two_images #image2 {
+      grid-area: image2;
+      width: 100%; }
+    #two_images img {
+      border: 1px solid orange;
+      width: 100%;
+      height: 100%; } }
+body {
+  width: 100%;
+  margin: auto; }
+
+form {
+  width: 90%;
+  margin: auto;
+  display: block; }
+  form input {
+    padding: 3%;
+    width: 90%; }
+  form #first_input {
+    height: 10px;
+    font-size: 0.8em;
+    font-weight: 100;
+    color: grey; }
+
+body {
+  width: 100%;
+  margin: auto; }
+
+footer {
+  font-size: 1.5em;
+  margin: 2%;
+  margin-top: 5%; }
+  footer img {
+    width: 5%;
+    height: 5%; }
+
+@media (min-width: 801px) {
+  footer img {
+    width: 3%;
+    height: 3%; } }
+body {
+  font-family: 'Cormorant Garamond', serif; }
+
+/*# sourceMappingURL=styles.css.map */

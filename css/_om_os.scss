@@ -1,0 +1,59 @@
+body{
+  width: 100%;
+  margin: auto;
+}
+
+section {
+     width: 90%;
+     margin: auto;
+   }
+
+#om {font-size: 1.6em}
+#formaal {font-size: 1.6em}
+#historie {font-size: 1.6em}
+
+#two_images {
+  // max-width: 90%;
+  border: 2px solid red;
+  display: flex;
+  background: green;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+  }
+}
+
+// tablet and desktop
+
+@media screen and (min-width: 401px) {
+  section {
+    width: 95%;
+    margin: auto;
+  }
+
+  // not?
+  #two_images {
+    display: grid;
+    width: 95%;
+    height: 380px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "image1 image2";
+    #image1{
+      grid-area: image1;
+      width: 100%;
+    }
+    #image2{
+      grid-area: image2;
+      width: 100%;
+    }
+
+    img {
+      border: 1px solid orange;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
