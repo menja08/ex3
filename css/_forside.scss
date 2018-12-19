@@ -40,6 +40,7 @@ section {width: 100%}
   padding-bottom: 5%;
   width: 90%;
   margin: auto;
+  // border: 1px solid green;
 
   #textBox {
     height: auto;
@@ -53,19 +54,10 @@ section {width: 100%}
     color: grey;
     display: flex;
     text-align: center;
-     // border: 1px solid black;
-
+    // border: 1px solid black;
+    margin: auto;
     width: 50%;
 
-
-    section {
-      // padding-left: 15%;
-      margin-left: 0;
-      margin-right: 0;
-      // background: lightseagreen;
-      // border: 1px solid yellowgreen;
-      width: 100%;
-    }
   }
 }
 
@@ -82,8 +74,9 @@ section {width: 100%}
 
   div {
     margin: auto;
-    // border: 1px solid yellow;
-    // margin-left: 10%;
+  }
+  .fb-page {
+    // data-height: "100";
   }
 }
 
@@ -128,5 +121,10 @@ section {width: 100%}
     }
   }
 
+  #facebook {
+    .fb-page {
+      // data-height: "300";
+    }
+  }
 
 }

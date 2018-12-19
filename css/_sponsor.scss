@@ -3,6 +3,15 @@ body{
   margin: auto;
 }
 
+#sponsor {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin: auto;
+  // background: green;
+}
+
 form {
   width: 90%;
   margin: auto;
@@ -23,7 +32,5 @@ form {
     color: grey;
   }
 
-  section {
-    //margin-top: 1%;
-  }
+
 }
