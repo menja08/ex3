@@ -17,9 +17,6 @@ function textBox() {
     }
 
     let slideCounter = 0;
-    let timeOut;
-    let mouseOverTimeOut;
-    let text;
 
     setInterval(function () {
         setTimeout(function () {

@@ -52,7 +52,7 @@ burger();
 // when to listen for resize, what to do when resize is called
 window.addEventListener("resize", function() {
     let screenSize = window.outerWidth;
-    if(screenSize < 800) {
+    if(screenSize < 801) {
         burger();
     }else {//hide image
 

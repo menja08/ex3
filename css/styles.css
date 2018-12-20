@@ -17,7 +17,7 @@ a {
     position: relative;
     max-width: 100%;
     max-height: 100%;
-    margin-left: -9%;
+    margin-left: -8%;
     margin-top: -20%;
     margin-bottom: -35%;
     z-index: -1; }
@@ -329,17 +329,20 @@ body {
   margin: auto; }
 
 footer {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 2%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-left: 5%; }
   footer img {
     width: 5%;
     height: 5%; }
 
 @media (min-width: 801px) {
-  footer img {
-    width: 3%;
-    height: 3%; } }
+  footer {
+    font-size: 1.5em; }
+    footer img {
+      width: 3%;
+      height: 3%; } }
 body {
   font-family: 'Cormorant Garamond', serif; }
 
