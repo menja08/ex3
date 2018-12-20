@@ -11,7 +11,7 @@ function burger() {
     // hide menu icon if screenSize is greater than 320
     let screenSize = window.outerWidth;
 
-    if(screenSize < 800) {//321
+    if(screenSize < 801) {//321
         for (let i = 0; i < numberOfElements; i++) {
             icon.children[0].style.display = "block";
             icon.children[i].style.display = "none";
